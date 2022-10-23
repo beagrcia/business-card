@@ -1,0 +1,115 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.avatar {
+    width: 130px;
+    border: 2px solid #90856A;
+    border-radius: 100px;
+    box-shadow: 0 8px 8px -4px grey;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #646e66;
+    color: #F8F3EF;
+    
+}
+
+.usersname {
+    font-size:30px;
+    margin-top: 20px;
+    
+}
+
+.about {
+    margin: -15px 0 -10px;
+}
+
+.position {
+    font-style:italic;
+}
+
+.location {
+    margin:-10px 0 40px;
+    font-weight: lighter;
+    font-size:14px;
+}
+
+.btn-follow {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    width:100px;
+    border: 2px solid grey;
+    border-radius: 30px;
+    background-color: white;
+    color: #444544;
+    padding: 8px 15px;
+    margin: -30px 0;
+    box-shadow: 0 4px #999;
+    
+}
+
+.btn-follow:hover {
+    background: #C2CBB2;
+}
+
+.btn-follow:active {
+    background: #C2CBB2;
+    box-shadow: 0 2px #999;
+    transform: translateY(4px)
+}
+
+img:hover {
+    animation: vibrate 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+
+ 
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
